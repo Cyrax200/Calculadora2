@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(img/pexels-tima-miroshnichenko-6693631.jpg);
+    background-size: cover;
+}
+
+
+.box{
+    width: 300px;
+    height: 500px;
+  background-image: url(img/tons-de-madeira-itauba.jpg);
+  background-size: cover;
+    border-radius: 5px;
+
+}
+.box h1{
+    text-align: center;
+    color: #eee;
+}
+.visor{
+    color: rgb(238, 238, 238);
+    margin: 10px;
+    height: 10vh;
+    background-color: rgba(13, 16, 19, 0.973);
+    border-radius: 5px;
+}
+
+p{
+   padding: 40px;
+}
+
+.botoes button{
+   margin: 2px;
+    width:60px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.botoes button:hover{
+    background-color: rgba(32, 8, 8, 0.219);
+    
+}
+
+.botoes{
+    margin: 15px;
+}
